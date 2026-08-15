@@ -1,2 +1,2 @@
-# MySQLJourney
-where I store my SQL Practices
+# My Data Analytics Portfolio
+where I store my Practices and Projects
