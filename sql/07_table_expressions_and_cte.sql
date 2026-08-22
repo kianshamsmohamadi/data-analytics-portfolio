@@ -240,7 +240,7 @@ DROP FUNCTION IF EXISTS Production.TopProducts;
 /* Return each employee's empid, firstname, lastname,
 their total number of orders, and their total quantity
 sold — but only for employees whose total quantity sold
-is abovethe average total quantity sold across all employees.*/
+is above the average total quantity sold across all employees.*/
 -- =========================================================
 
 With EmpTotals as
@@ -258,4 +258,5 @@ from EmpTotals as ET
 inner join hr.Employees as E
 on ET.empid=E.empid
 cross join AvgQty as AQ
-where ET.totalqty > AQ.avgqty;
+where ET.totalqty > AQ.avgqty
+order by totalqty desc;

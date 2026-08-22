@@ -14,6 +14,7 @@ Files are organized by topic, in the order they were learned:
 | `05_set_operators.sql` | UNION, UNION ALL, INTERSECT, EXCEPT |
 | `06_data_modification.sql` | INSERT, UPDATE, DELETE, OUTPUT, SELECT INTO |
 | `07_table_expressions_and_cte.sql` | Derived tables, CTEs, recursive CTEs, views (incl. SCHEMABINDING), inline TVFs, CROSS APPLY, window functions (ROW_NUMBER) |
+| `08_window_functions_and_advanced_querying.sql` | RANK/DENSE_RANK, PARTITION BY, LAG/LEAD, FIRST_VALUE/LAST_VALUE, window aggregates, PIVOT/UNPIVOT, Dynamic Pivot, GROUPING SETS/ROLLUP/CUBE |
 
 Each file contains the original exercise prompt as a comment above the
 corresponding query. Where a task description had an inconsistency between
